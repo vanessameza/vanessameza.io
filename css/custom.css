@@ -1,0 +1,23 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.nav-mail-link {
+	color: #666;
+    text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+  .module {
+    display: inline-block;
+    padding: 0 16px;
+	}
+
+	.fullscreen {
+    height: auto;
+	}
+
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
