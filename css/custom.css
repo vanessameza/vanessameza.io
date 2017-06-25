@@ -5,6 +5,32 @@
     text-decoration: none;
 }
 
+.parallax > .background-image-holder {
+    height: 100%;
+}
+
+.copyProject1 {
+}
+
+a:hover {
+    color: #ea6464;
+    text-decoration: none;
+}
+
+
+.btn:visited {
+    background: #CB0001;
+}
+.btn:hover {
+    background: #ea6464;
+    color: #fff;
+}
+
+span.sub.logo {
+    color: #cb0001;
+    font-size: 1.3rem;
+}
+
 @media all and (max-width: 767px) {
   .module {
     display: inline-block;
@@ -15,9 +41,38 @@
     height: auto;
 	}
 
+    .background-image-holder {
+    top: -25%;
+    }
+
 }
 
 @media (min-width: 768px) {
-.container {
-    width: 750px;
+    .container {
+        width: 750px;
+    }
+    div#bgHolder1 {
+        margin-top: 10%;
+    }
+
 }
+
+@media all and (max-width: 767px) {
+    .fullscreen {
+        height: 100vh;
+    }
+    section#project01Copy {
+        margin-top: -50%;
+    }
+    /*div#bgHolder1 {
+        margin-top: 20%;
+    }*/
+
+    div#bgHolder1 {
+        background: url(../img/project-03-sm.jpg)!important;
+        background-size: cover !important;
+        background-position: 50% 50% !important;
+    }
+}
+
+
